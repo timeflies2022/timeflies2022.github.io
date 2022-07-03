@@ -1,41 +1,82 @@
-body {
-  text-align: center;
-  background-color: blanchedalmond;
-  font-family: 'Roboto', sans-serif;
-
-}
-header {
-  font-size: 50px;
-  margin-bottom: 100px;
-margin-top: 100px;
-
-}
-nav {
-  text-align: center;
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
+body {background-color: black;
+  color: snow;  
 }
 
-div {
+ul {
+  padding: 0px 100px;
+  background-color: black;
+  color: azure;
+  
+}
+li {
   display: inline-block;
-  margin: auto;
+  margin: 0px 20px;
 }
-
-section {
-  font-size: 60px;
+.logo{
   display: flex;
   flex-direction: row;
-
+  font-size: 80px;
+  padding: 0;
+  margin: 0px 0px 0px 10px;
+  font-family: 'Rubik Moonrocks', cursive;
 }
-img {
-  width:  800px;
-    height: 800px;
-  object-fit: cover;
-  margin: 0;
+.picture {
+  height: 1000px;
+  background-image: url(../journey.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-p {
+Section {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 100px;
+  color: snow;
+}
+.fontsize {
   font-size: 30px;
-  margin-top: -30px;
+  display: inline-block;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.me{
+  background-image: url(../me.jpg);
+  width:  1300px;
+  height: 1000px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+} 
+.text {
+  color: snow;
+  font-size: 50px;
+  text-align: right;
+  margin-top: -700px;
+  margin-right: 50px;
+}
+p{
+  color: snow;
+  margin-left: 400px;
+  margin-top: 80px;
+  font-size: 40px;
+  margin-right: 400px;
+}
+.first {
+  font-size: 50px;
+}
+.core {
+  border: 10px;
+  border-color: darkgrey;
+  border-style: groove;
+  margin: 100px;
+  text-align: center;
+  font-size: 100px;
+}
+a{
+  color: lightskyblue;
+}
+.identity {
+  font-size: 50px;
+  margin-bottom: -50px;
+  color: slategray;
 }
