@@ -26,6 +26,16 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media(max-width: 768px) {
+  div {
+    height: 750px;
+    background-image: url(../journey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
 Section {
   margin-top: 30px;
   text-align: center;
